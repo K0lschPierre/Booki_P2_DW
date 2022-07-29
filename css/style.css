@@ -728,8 +728,6 @@ section h2
     .logo
     {
         display: block;
-        margin-right: auto;
-        margin-left: auto;
         width: 20%;
     }
 
@@ -753,7 +751,6 @@ section h2
     .info
     {
         margin-top: 4%;
-        margin-bottom: 4%;
     }
 
         /* First Bloc */
