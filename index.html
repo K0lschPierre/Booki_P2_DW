@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">    
+<html lang="fr">   
     <head>    
         <title>Booki | Site de réservation</title>
         <meta charset="utf-8">
@@ -7,6 +7,10 @@
         <meta name="description" content="Booki est un site de réservation en ligne pour trouvez un hébergement pour des vacances de rêves">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/37103d757f.js" crossorigin="anonymous"></script>
         <!-- Open Graph data -->       
         <meta property="og:title" content="Booki | Site de réservation"/>
@@ -24,21 +28,25 @@
         <meta name="twitter:image" content="http://www.booki.com/image.jpg">
     </head>    
     <body>
+        <!-- Header -->
         <header id="header">
             <div class="container_logo">
-                <img class="logo" alt="logo" src="images/logo/Booki.png">            
+                <img class="logo" alt="logo" src="images/logo/Booki.png">
+                <!-- Menu Nav -->           
                 <nav class="nav_menu">                    
                     <a class="menu" href="#Hébergements">Hébergements</a>
                     <a class="menu" href="#Activités">Activités</a>                                      
                 </nav>
             </div>    
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>            
+            <p>En plein centre-ville ou en pleine nature</p> 
+            <!-- Search -->           
             <div class="container_recherche">
                 <form method="post" action="#">
                     <i class="géoloc fas fa-map-marker-alt"></i><input type="search" name="search" placeholder="Marseille, France"><button class="recherche" type="submit"><i class="fas fa-search" id="search_responsive"></i><span id="search_desktop">Rechercher</span></button>
                 </form>
             </div>
+            <!-- Filters -->
             <div class="filtres">
                 <span>Filtres</span>
                 <button value="Économique"><i class="fas fa-money-bill-wave-alt"></i>Économique</button>
@@ -46,10 +54,13 @@
                 <button value="Romantique"><i class="fas fa-heart"></i>Romantique</button>
                 <button value="Animaux"><i class="fas fa-dog"></i>Animaux autorisés</button>
             </div>
-        </header>           
+        </header>
+        <!-- First Section -->           
         <section>
+            <!-- Info -->
 			<div class="info"><i class="fas fa-info-circle"></i><p>Plus de 500 logements sont disponibles dans cette ville</p></div>            
              <div id="main_bloc">
+                <!-- First Bloc -->
                 <div class="first_bloc">
                     <h2>Hébergements à Marseille</h2>
                     <div class="pictures">                       
@@ -106,6 +117,7 @@
                         <summary><strong>Afficher plus</strong></summary>
                     </details>
                 </div>
+                <!-- Second Bloc -->
                 <div class="second_bloc">
                     <h2>Les plus populaires <i class="fas fa-star"></i></h2>
                     <figure>
@@ -135,8 +147,10 @@
                 </div>
             </div>
         </section>
+        <!-- Last Section -->
         <section>
             <h2>Activités à Marseille</h2>
+            <!-- Last Bloc -->
             <div id="last_bloc">
                 <div class="column">
                     <figure>
@@ -183,7 +197,8 @@
                     </figure>
                 </div>
             </div>
-        </section>                    
+        </section>
+        <!-- Footer -->                    
         <footer id="footer">
             <div class="footer_border">
                 <div class="propos">
