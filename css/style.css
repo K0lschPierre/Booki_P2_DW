@@ -1,11 +1,3 @@
-        /* Polices */
-
-@font-face
-{
-    font-family: 'Raleway';
-    src: url('web_fonts/Raleway.ttf');
-}
-
 html
 {
     font-family: 'Raleway', sans-serif;
