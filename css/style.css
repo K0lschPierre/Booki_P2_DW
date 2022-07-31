@@ -228,7 +228,7 @@ header p
     {
         font-size: 20px;
         margin-left: 4%;
-        margin-top: 4%;
+        margin-top: 3%;
     }
 
     .pictures 
@@ -333,7 +333,7 @@ details
         font-size: 20px;
         margin-left: 8%;
         margin-right: 8%;
-        margin-top: 8%;
+        margin-top: 7%;
     }
 
         .second_bloc h2 i
@@ -469,13 +469,13 @@ section h2
         .footer_border h4
         {
             font-size: 16px;
-            margin-bottom: 5%;
+            margin-bottom: 12%;
         }
 
         .footer_border li
         {
             font-size: 14px;
-            margin-top: 2%;
+            margin-top: 8%;
             list-style-type: none;
         }
 
